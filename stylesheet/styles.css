@@ -1,0 +1,46 @@
+body{
+    background: url('https://live.staticflickr.com/65535/49565892377_9c39c499f9_b.jpg') no-repeat;
+    background-size: cover;
+}
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    font-size: 0.875em;
+    text-decoration: none;
+    padding: 1em;
+    letter-spacing: 2px;
+}
+
+ul li a:hover{
+    border-bottom: 3px solid #fff;
+}
+
+.header{
+    padding: 20px;
+    height: 100vh;
+}
+
+.header h1{
+    margin: 0;
+    color: #fff;
+    font-weight: 900;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.header .content{
+    position: relative;
+    top: 50%;
+    text-align: center;
+}
